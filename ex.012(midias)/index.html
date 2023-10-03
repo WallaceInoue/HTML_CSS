@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midia in HTML</title>
+</head>
+<body>
+    <h1>Dynamic Image</h1>
+    <p>Try to open this site in several device or simply increase and decrease the size of your browser</p>
+
+    <picture>
+        <source media="(max-width: 750px )" srcset="image/photo-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="image/photo-m.png" type="image/png">
+        
+        <img src="image/photo-g.png" alt="flexivel">
+    </picture>
+    
+    <h1>Music</h1>
+    <audio src="nome/arquivo" controls autoplay></audio>
+    
+    <!--
+        <audio>
+        <source src="nome/arquivo" type="audio/mpeg">
+    </audio>
+    -->
+<h1>Videos</h1>
+    <video src="video/tune.mp4" width="500px" controls></video>
+ 
+    <!--
+         <video poster="image/photo-g.png" controls  width="500px">
+        <source src="video/tune.mp4" type="video/mp4">
+    </video>
+    -->
+    <h1>videos from Youtube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/KuoyhcTHqGs?si=23rr7xyhpih4HyHj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</body>
+</html>

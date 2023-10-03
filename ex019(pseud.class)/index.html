@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-Class</title>
+    <style>
+        div{
+            display: inline-block;
+            background-color:  rgba(172, 170, 170, 0.778);
+            border: 1px solid black;
+            text-align: center;
+            height: 200px;
+            width: 200px;
+        }
+        div > p {
+            display: none;
+        }
+        .d1:hover {
+            display: block;
+            background-color: rgba(67, 67, 237, 0.942);
+            
+        }
+        div:hover > p {
+            display: block;
+        }
+        .d2:hover{
+            background-color: rgb(228, 228, 120);
+        }
+        .d3:hover{
+            background-color: rgb(227, 112, 112);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="d1">01
+        <p>
+           Hi, move the to the next block 
+        </p>
+    </div>
+    <div class="d2">02
+        <p>  I love you :) <br>
+        Go to the next block to see the surprese </p>
+      
+    </div>
+    <div class="d3">03
+        <p>Buuuuuh!!!!!</p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,14 @@
+body{
+    background-color: rgb(161, 252, 221);
+    
+    font-size: 15px arial;
+}
+h1{
+    color: blue;
+}
+h2{
+    color: brown;
+}
+p{
+    text-align: justify;
+}

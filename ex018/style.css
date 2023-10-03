@@ -1,0 +1,25 @@
+body{
+    background-color: #93DAE6;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+h1{
+    color:white;
+    background-color: #72AAB3;
+}
+#main{
+    text-align: center;
+}
+h2{
+    color: rgb(0, 123, 255);
+}
+.basic{
+    color: rgb(0, 104, 0);
+    font-weight: bold;
+}
+.intermediate{
+    color: rgb(191, 161, 29);
+}
+.advanced{
+    color: rgb(193, 39, 39);
+}

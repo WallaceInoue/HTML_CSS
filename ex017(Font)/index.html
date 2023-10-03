@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Font Text</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;1,100;1,200&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');        
+    
+        @font-face {
+            font-family:'love' ;
+            src: url('CFHalloween-Regular.ttf') format('truetype');
+            /*
+            Types of format
+            - opentype (otf)
+            - trueype (ttf)
+            - embedded-opentype
+            - truetype-aat (Apple Advanced Typography)
+            -svg
+            */
+        }
+        body{
+            font-family: "work sans", Helvetica, sans-serif;
+            font-size: 1em;
+            
+        }
+        h1, h2{
+            font-family: "fredericka the great", Helvetica, sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+
+            /*
+            shorthand
+            font: font-style font-weight font-size font-family; 
+            */
+        }
+        .external{
+            font-family: 'love';
+            font-size: 3em;
+            font-style: normal;
+        }
+    </style>
+</head>
+<body>
+    <h1>Font Text</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia doloribus qui repudiandae aperiam sequi, eveniet eligendi amet odio fugiat tempore deleniti rerum delectus perspiciatis ullam omnis quae, reiciendis earum. Voluptates!Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia doloribus qui repudiandae aperiam sequi, eveniet eligendi amet odio fugiat tempore deleniti rerum delectus perspiciatis ullam omnis quae, reiciendis earum. Voluptates!
+</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia doloribus qui repudiandae aperiam sequi, eveniet eligendi amet odio fugiat tempore deleniti rerum delectus perspiciatis ullam omnis quae, reiciendis earum. Voluptates!</p>
+
+    <h2>Sub-Title</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam consequatur facere, mollitia quisquam tempore impedit dolorum natus incidunt repudiandae ea voluptatibus perspiciatis reiciendis consequuntur deserunt sint fugiat iste eum officiis?</p>
+     <h1 class="external">External font</h1>
+     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta, aperiam qui? Doloremque qui voluptatibus, impedit rerum ab inventore provident cumque reiciendis magnam eos quo minima quisquam modi incidunt. Maiores, expedita.</p>
+</body>
+</html>
