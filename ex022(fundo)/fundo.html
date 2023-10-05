@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testing background image</title>
+    <style>
+        body{
+            background-image: url('image/wallpaper005.jpg');
+            background-position: center top;
+            height:98vh;
+            border: 1px dashed black;
+            background-repeat: no-repeat;
+            
+        }
+        .square{
+            background-color: rgb(169, 168, 168);
+            width: 300px;
+            height: 300px;
+            border: 2px solid rgba(0, 0, 0, 0.821);
+            display: inline-block;
+            border-radius: 10px;
+        }
+        #s1{
+            background-color: rgb(49, 240, 240);
+        }
+        #s2{
+            background-image: linear-gradient(to bottom, rgb(211, 8, 211), rgb(42, 42, 237));
+        }
+        #s3{
+            background-image: url('image/pattern001.png');
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="square" id="s1">
+
+    </div>
+    
+    <div class="square" id="s2">
+
+    </div>
+    
+    <div class="square" id="s3">
+
+    </div>
+</body>
+</html>
