@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anatomic Table</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            width: 400px;
+            border-collapse: collapse;
+            position: relative;
+        }
+        td,th{
+            border: 1px solid black;
+            padding: 5px;
+        }
+        thead > tr >th{
+            position: sticky;
+            top: -1px;
+            background-color: rgb(129, 127, 127);
+        }
+        thead, tfoot{
+            background-color: rgb(129, 127, 127);
+        }
+        .num{
+            text-align: right;
+            width: 60px;
+        }
+        tbody > tr:nth-child(2n){
+            background-color: rgba(181, 178, 178, 0.841);
+        }
+    </style>
+</head>
+<body>
+    <h1>Big Table</h1>
+    <table>
+        <thead>
+            <th scope="col">State</th>
+            <th scope="col" >Population</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Tokyo</td>
+                <td class="num">8,336,599</td>
+            </tr>
+            <tr>
+                <td>Yokohama</td>
+                <td class="num">3,574,443</td>
+            </tr>
+            
+            <tr>
+                <td>Osaka</td>
+                <td class="num">2,592,413</td>
+            </tr>
+            <tr>
+                <td>Nagoya</td>
+                <td class="num">2,191,279</td>
+            </tr>
+            <tr>
+                <td>Sapporo</td>
+                <td class="num">1,883,027</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <th scope="row">Total of Habitant:</th>
+            <td>0000000</td>
+        </tfoot>
+    </table>
+</body>
+</html>
