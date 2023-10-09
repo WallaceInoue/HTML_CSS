@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Movie</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            border-collapse: collapse;
+            
+
+        }
+        thead{
+            background-image: linear-gradient(to right, rgba(128, 128, 128, 0.529), rgba(0, 0, 0, 0.748));
+            color: white;
+        }
+        td, th{
+            border: 1px solid black;
+            padding: 10px;
+        }
+        caption{
+            padding: 10px;
+        }
+        .n{
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <h1>Table Exercise</h1>
+    <table>
+        <colgroup>
+            <col class="g">
+            <col class="n">
+            <col class="m">
+        </colgroup>
+        <caption>
+            Favorite Movie
+        </caption>
+        <thead>
+            <th scope="col">Group</th>
+            <th scope="col">Names</th>
+            <th colspan="3" scope="colgroup">Movies</th>
+         </thead>
+         <tbody>
+            <tr>
+                <th rowspan="3">Women</th>
+                <td>Ana Maria</td>
+                <td>Alien</td>
+                <td>Rambo</td>
+                <td>Avengers</td>
+            </tr>
+            <tr>
+                <td>Beatriz</td>
+                <td>Hulk</td>
+                <td>Inception</td>
+                <td>Batman</td>
+            </tr>
+            <tr>
+                <td> Gabi</td>
+                <td>Oblivio</td>
+                <td>Matrix</td>
+                <td>Big Hero</td>
+            </tr>
+            <tr>
+                <th rowspan="3">Men</th>
+                <td>Bruno</td>
+                <td>Intocaveis</td>
+                <td>Matia</td>
+                <td>Gladiador</td>
+            </tr>
+            <tr>
+                <td>Daniel</td>
+                <td>Wall-E</td>
+                <td>Oldbiy</td>
+                <td>Taxi Diver</td>
+            </tr>
+            <tr>
+                <td>Gustavo</td>
+                <td>Star Wars</td>
+                <td>Tomb Raider</td>
+                <td>Halo</td>
+            </tr>
+            
+         </tbody>
+        <tbody>
+
+        </tbody>
+
+    </table>
+</body>
+</html>
