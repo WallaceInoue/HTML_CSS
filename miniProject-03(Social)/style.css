@@ -19,10 +19,37 @@ section#s-phone{
    
     position: absolute;
     top: 50%;
-    left: 40%;
+    left: 50%;
     transform: translate(-50%,-50%);
     
-    background: url(imagens/apple.png) no-repeat;
-    height: 600px;
+    background: url(imagens/frame-iphone.png) no-repeat;
+    height: 627px;
     width: 438px;
+}
+iframe#screen{
+    position: relative;
+    top: 80px;
+    left: 22px;
+
+    width: 268px;
+    height: 471px;
+}
+section#s-media{
+    position: relative;
+    text-align: right;
+    top: 50px;
+    right: 20px;
+}
+section#s-media img {
+    width: 70px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 5px rgba(12, 12, 12, 0.801);
+    box-sizing: border-box;
+}
+section#s-media img:hover {
+    box-shadow: 8px 8px 8px rgba(12, 12, 12, 0.801);
+    border: 1px solid white;
+    transform: translate(-3px, -3px);
+    transition: transform .5s;
 }
