@@ -17,9 +17,11 @@ a{
     text-align: center;
     text-decoration: none;
     color: white;
-    
+    transition: 1s; 
 }
 a:hover {
     font-weight: bold; 
-    transition: .5s;  
+    background-color: red;
+    color: black;
+     
 }
