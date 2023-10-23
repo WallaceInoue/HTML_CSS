@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<body>
+    <h1>Adding up Numbers</h1>
+    <form action="sign-up.php" method="post" autocomplete="on">
+        <fieldset>
+            <legend>Adding up</legend>
+            <p>
+                <label for="i-num1">Number 1:</label>
+                <input type="number" name="number" id="i-num1" min="0" max="50" required
+                oninput="i-add.innerHTML = Number(i-num1.value) + Number(i-num2.value)">
+            </p>
+            <p>
+                <label for="i-num2">Number 2:</label>
+                <input type="number" name="number" id="i-num2" min="0" max="50" required
+                oninput="i-add.innerHTML = Number(i-num1.value) + Number(i-num2.value)">
+            </p>
+            <p>
+                <label for="i-add">Result:</label>
+                <output id="i-add">0</output>
+            </p>
+            <p>
+                <input type="submit" value="Submit">
+                <input type="reset" value="Clear">
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Value</legend>
+            <p>
+                <label for="number">Number:</label>
+                <input type="range" name="number1" id="number" min="0" max="10" oninput="val.innerHTML = Number(number.value)">
+                <output id="val">5</output>
+            </p>
+        </fieldset>
+    </form>
+    
+</body>
+</html>

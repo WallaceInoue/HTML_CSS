@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="sign-up.php" method="post" autocomplete="on">
+        <p>
+            <label for="i-color">Color:</label>
+            <input type="color" name="color" id="i-color">
+        </p>
+        <p>
+            <label for="satisfaction">Satisfaction:</label>
+            <input type="range" name="satisfaction" id="i-satisfaction" min="1" max="5">
+        </p>
+        <p>
+            <label for="picture">Profile photo:</label>
+            <input type="file" name="picture" id="i-picture">
+        </p>
+        <p>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Clear">
+        </p>
+    </form>
+</body>
+</html>

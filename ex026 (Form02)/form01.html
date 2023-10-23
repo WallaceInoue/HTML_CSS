@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Form Example</h1>
+    <form action="sign-up.php" method="post" autocomplete="on">
+        <p>
+            <label for="i-state">Province:</label>
+            <select name="state" id="i-state">
+                <optgroup label="Southern Region">
+                    <option value="MG">Minas Gerais</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="SP">São Paulo</option>
+                </optgroup>
+                
+                <optgroup label="Northern Region">
+                    <option value="MA">Maranhao</option>
+                    <option value="PE">Pernambuco</option>
+                    <option value="RN">Rio Grabde do Norte</option>
+                </optgroup>
+            </select>
+        </p>
+        <p>
+            <label for="i-profession">Profession:</label>
+            <input type="text" name="profession" id="i-profession" list="list-prof">
+            <datalist id="list-prof">
+                <option value="">Administration</option>
+                <option value="">Accountant</option>
+                <option value="">Developer</option>
+                <option value="">Teacher</option>
+            </datalist>
+        </p>
+        <p>
+            <label for="i-message">Massage:</label><br>
+            <textarea name="message" id="i-message" cols="30" rows="10"></textarea>
+        </p>
+        <p>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Clear">
+        </p>
+    </form>
+    
+</body>
+</html>
