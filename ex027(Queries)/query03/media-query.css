@@ -1,0 +1,62 @@
+/*
+Typical Device Breackpoints:
+Small screen: up 600px
+Mobile: 600px ~ 768px
+Table: 768px ~ 992px
+Desktop: 992 ~ 1200px
+Big sreen: 1200px ~ 
+*/
+@media print{
+  *{
+    font-family: 'Courier New', Courier, monospace;
+  }
+  main h1 {
+    text-shadow: none;
+    color: black;
+  }
+  main{
+    border: 2px solid black;
+  }
+  body::after{
+    content: 'Create by Wallace';
+  }
+
+    img#phone{display: none;}
+    img#table{display: none;}
+    img#pc{display: none;}
+    img#tv{display: none;}
+    img#printer{display: block;}
+}
+
+@media screen and (min-width:600px) and (max-width: 992px) {
+    body{
+        background-image: url(imagens/back-tablet.jpg);
+       
+    }
+img#phone{display: none;}
+img#table{display: block;}
+img#pc{display: none;}
+img#tv{display: none;}
+img#printer{display: none;}
+}
+
+@media screen and (min-width:992px) and (max-width: 1200px) {
+    body{
+        background-image: url(imagens/back-pc.jpg);
+    }
+img#phone{display: none;}
+img#table{display: none;}
+img#pc{display: block;}
+img#tv{display: none;}
+img#printer{display: none;}
+}
+@media screen and (min-width:1200px) {
+    body{
+        background-image: url(imagens/back-tv.jpg);
+    }
+img#phone{display: none;}
+img#table{display: none;}
+img#pc{display: none;}
+img#tv{display: block;}
+img#printer{display: none;}
+}
