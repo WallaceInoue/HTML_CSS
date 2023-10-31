@@ -1,0 +1,23 @@
+/*
+Typical Device Breackpoints:
+Small screen: up 600px
+Mobile: 600px ~ 768px
+Table: 768px ~ 992px
+Desktop: 992 ~ 1200px
+Big sreen: 1200px ~ 
+*/
+@media screen and (min-width: 768px){
+    #burger{
+        display: none;
+    }
+    menu{
+        display: block;
+    }
+    menu > ul > li{
+        display: inline-block;
+        
+    }
+    main{
+        width: 800px;
+    }
+}
