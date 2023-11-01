@@ -12,12 +12,16 @@ Big sreen: 1200px ~
     }
     menu{
         display: block;
-    }
-    menu > ul > li{
-        display: inline-block;
         
     }
+    menu > ul > li{
+        display: inline-block ;
+        
+    }
+    
     main{
         width: 800px;
     }
+
+    
 }
