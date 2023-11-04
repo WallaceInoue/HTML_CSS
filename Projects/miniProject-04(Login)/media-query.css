@@ -1,0 +1,54 @@
+/*
+small screen: 600px
+Mobile screen: 600px ~ 768px
+table screen: 768px ~ 992px
+Desktop: 992px ~ 1200px
+Big screen: 1200px ~
+*/
+@media screen and (max-width:600px){
+    section#login > div#photo{
+    display: block;
+    background: purple url(images/pexels-ave-calvar-martinez-4297438.jpg);
+    background-size:cover;
+    height: 200px;
+}
+}
+@media screen and (min-width: 600px) and (max-width: 992px){
+    body{
+        background-image: linear-gradient(to top,#1e71a1, rgba(117, 11, 117, 0.714)) ;
+    }
+    #login{
+        width: 80vw;
+        height: 400px;
+    }
+    #login > #photo{
+        background: purple url(images/pexels-ave-calvar-martinez-4297438.jpg);
+        float: left;
+        width:30%;
+        height: 100%;
+        background-size: cover;
+    }
+    #login > #form{
+        float: left;
+        width: 70%;
+    }
+}
+@media screen and (min-width:992px){
+    body{
+        background-image: linear-gradient(to top,#1e71a1, rgba(117, 11, 117, 0.714)) ;}
+    #login{
+        width: 800px;
+    }
+    #login > #photo{
+        background: purple url(images/pexels-ave-calvar-martinez-4297438.jpg);
+        float: right;
+        width: 40%;
+        height: 100%;
+        background-size: cover;
+    }
+    #login > #form{
+        float: left;
+        width: 50%;
+    }
+
+}
